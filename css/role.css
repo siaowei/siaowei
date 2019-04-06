@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    width: 1366px;
+    height: 630px;
+    background-color: #bbeade;
+}
+#rolebox {
+    width: 1208px;
+    height: 345px;
+    position: relative;
+    background-color: rgba(0,0,0,0.0);
+    left: 68px;
+    top: 200px;
+    overflow: hidden;
+}
+#rolebox ul{
+    position: absolute;
+    top:40px;
+    left:30px;
+    text-align: center;
+
+}
+#rolebox ul li{
+    width: 285px;
+    height: 285px;
+    float: left;
+    background-color: #ffe543;
+    /*background-color: #fecf45;*/
+    top:7.5px;
+    margin-left: 2px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+#rolebox ul li:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 5px #a0a0a0;
+}
+#rolebox li img{
+    width: 100px;
+    padding-top: 65px;
+}
+#rolebox ul h4{
+    /*color: #cf8888;*/
+}
+.text2{
+    font-size: 80%;
+    /*color: #cf8888;*/
+    opacity: 0;
+}
+#rolebox ul li:hover .text2{
+    transition: 0.3s;
+     opacity: 1;
+}
+
+#rolebox ul li:hover img{
+    transition: 0.3s;
+    transform: translateY(-20px);
+}
+.peppalogo{
+    position: absolute;
+    float: left;
+    left:558px;
+    top:30px;
+}

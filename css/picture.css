@@ -1,0 +1,34 @@
+#container {
+    padding-top:20px ;
+    background-color: #beffca;
+    background-color: rgba(0,0,0,0);
+}
+#content {
+    padding: 40px 20px 30px 40px;
+    margin-left: 100px;
+    width: 1130px;
+    height: 570px;
+   /* background-color: #adb0cc;*/
+}
+.waterfall{
+    -moz-column-count:4; /* Firefox */
+    -webkit-column-count:4; /* Safari 和 Chrome */
+    column-count:4; /* 用整数值来定义列数。不允许负值 */
+    -moz-column-gap: 1em;
+    -webkit-column-gap: 1em;
+    column-gap: 1em; /*用长度值来定义列与列之间的间隙。不允许负值*/
+}
+.item{
+    padding: 1em;
+    margin: 0 0 1em 0;
+    -moz-page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    break-inside: avoid;
+    border: 0 solid #8c8b;
+}
+.item img{
+    width: 100%;
+    margin-bottom:4px;
+    border-radius: 10px;
+    border-shadow:#888888;
+}
